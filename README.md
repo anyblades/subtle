@@ -301,7 +301,11 @@ A navigation template `bricks/_nav.{njk|liquid}` that renders a list of navigati
 </nav>
 ```
 
+<details><summary>
+
 ### Google Tag Manager <small>(`_gtm.*`)</small>
+
+</summary>
 
 A template `bricks/_gtm.{njk|liquid}` for embedding Google Tag Manager scripts in your pages.
 
@@ -315,3 +319,5 @@ A template `bricks/_gtm.{njk|liquid}` for embedding Google Tag Manager scripts i
 
 - https://github.com/anydigital/bricks/blob/main/bricks/__html.njk
 - https://github.com/anydigital/bricks/blob/main/bricks/__html.liquid
+
+</details>
