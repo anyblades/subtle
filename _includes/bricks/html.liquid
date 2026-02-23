@@ -12,24 +12,24 @@
     {%- for href in site.styles %}
       <link rel="stylesheet" href="{{ href }}">
     {%- endfor %}
-    {% # prettier-ignore %}
-    <style>{{ site.inline_styles | join: '\n' }}</style>
-    {% # %}
+    <style>
+      {{ site.inline_styles | join: '\n' }}
+    </style>
 
     {%- for src in site.scripts %}
       <script src="{{ src }}" defer></script>
     {%- endfor %}
-    {% # prettier-ignore %}
-    <script type="module">{{ site.inline_scripts | join: '\n' }}</script>
-    {% # %}
+    <script type="module">
+      {{ site.inline_scripts | join: '\n' }}
+    </script>
 
     {{ content_for_header }}
-    {% render './_gtm', site: site %}
+    {% include bricks/gtm.liquid %}
   </head>
 
   <body>
-    {% render './_gtm', site: site, for_body: true %}
+    {% include bricks/gtm.liquid for_body=true %}
+
     {{ body }}
-    {% # %}
   </body>
 </html>

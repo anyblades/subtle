@@ -12,23 +12,23 @@
     {%- for href in site.styles %}
       <link rel="stylesheet" href="{{ href }}" />
     {%- endfor %}
-    {# prettier-ignore-start #}
-    <style>{{ site.inline_styles | d([]) | join('\n') }}</style>
-    {# prettier-ignore-end #}
+    {# prettier-ignore-start #}<style>
+      {{ site.inline_styles | d([]) | join('\n') }}
+    </style>{# prettier-ignore-end #}
 
     {%- for src in site.scripts %}
       <script src="{{ src }}" defer></script>
     {%- endfor %}
-    {# prettier-ignore-start #}
-    <script type="module">{{ site.inline_scripts | d([]) | join('\n') }}</script>
-    {# prettier-ignore-end #}
+    {# prettier-ignore-start #}<script type="module">
+      {{ site.inline_scripts | d([]) | join('\n') }}
+    </script>{# prettier-ignore-end #}
 
     {{ content_for_header }}
-    {% include 'bricks/_gtm.njk' %}
+    {% include 'bricks/gtm.njk' %}
   </head>
 
   <body>
-    {% set for_body = true %}{% include 'bricks/_gtm.njk' %}
+    {% set for_body = true %}{% include 'bricks/gtm.njk' %}
     {% block body %}
     {% endblock %}
   </body>
