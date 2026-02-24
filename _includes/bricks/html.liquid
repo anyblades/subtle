@@ -1,4 +1,5 @@
 <!doctype html>
+{% if site.data.site %}{% assign site = site.data.site %}{% endif %}
 <html lang="{{ site.lang | default: 'en' }}">
   <head>
     <meta charset="utf-8">
