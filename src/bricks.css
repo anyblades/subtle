@@ -5,6 +5,6 @@
 
 /* @import "./_base"; */
 /* @import "./_prose"; */
-@import "./_breakout";
+@import "./breakout";
 /* @import "./_prism"; */
 /* @import "./_util"; */
