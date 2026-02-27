@@ -1,0 +1,6 @@
+/* Favicons in links @TODO: add to tricks-wiki */
+a > i > img {
+  max-height: 1.2em;
+  margin-top: -0.1em;
+  margin-right: 0.25em;
+}
