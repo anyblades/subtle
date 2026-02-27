@@ -9,7 +9,7 @@
   },
   "scripts": {
     "postcss": "postcss src/bricks.css -o assets/bricks.css",
-    "build": "npm run postcss -- --no-map",
+    "build": "npm run postcss -- --no-map && cp ./node_modules/@anydigital/breakout-css/dist/breakout.css ./assets/",
     "start": "npm run postcss -- --watch",
     "prepublishOnly": "npm run build"
   },
