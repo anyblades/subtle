@@ -32,8 +32,7 @@
     /* Tables are so special :(
 <!--section:responsive-table-without-wrapper-->
 ### Responsive tables without wrapper
-```css
-    */
+```css */
     &:is(table):not(.does-not-exist) {
       /* @TODO: add postcss's `:not(.does-not-exist)` to tricks-wiki */
       /* Let them full-bleed */
