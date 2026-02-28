@@ -35,6 +35,14 @@ body {
 pre {
   padding: 1rem 1.5rem;
   padding-inline-end: 2rem;
+
+  code {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    border-radius: 0;
+  }
 }
 
 /* @import "./_prose"; */
@@ -84,6 +92,7 @@ pre {
       overflow-x: auto;
       -webkit-overflow-scrolling: touch; /* Smooth scroll for iOS */
 
+      th,
       td {
         padding-inline-start: 0;
       }
@@ -140,7 +149,21 @@ pre {
   }
 }
 
-/* @import "./_prism"; */
+/* Prism.js */
+
+.token.treeview-part {
+  .entry-line {
+    width: 2.5em !important;
+    opacity: 25%;
+  }
+  .entry-name:last-child {
+    opacity: 50%;
+
+    &::before {
+      display: none !important;
+    }
+  }
+}
 
 /* @import "./_util"; */
 
