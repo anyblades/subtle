@@ -29,12 +29,10 @@
       min-width: auto;
     }
 
-    /* Tables are so special :(
-<!--section:responsive-table-without-wrapper-->
-### Responsive tables without wrapper
-```css */
+    /* <!--section:responsive-table-without-wrapper-->
+    ### Responsive tables without wrapper
+    ```css */
     &:is(table):not(.does-not-exist) {
-      /* @TODO: add postcss's `:not(.does-not-exist)` to tricks-wiki */
       /* Let them full-bleed */
       width: max-content;
       min-width: auto;
@@ -51,8 +49,10 @@
         padding-inline-start: 0;
       }
     }
-    /*
-```<!--section--> */
+    /*```
+    #### Soft-increase selector specificity
+    `&:is(table):not(.does-not-exist)` trick (inspired by postcss) is used here to increase specificity against selectors like `&:is(table, .table)`
+    <!--section--> */
 
     /* Max out the width of the element */
     &.breakout-item-max {
