@@ -1,6 +1,7 @@
 /* Breakout CSS - Framework-agnostic utilities for breaking out images and figures */
 
-.breakout {
+.breakout,
+.breakout-all {
   /* Prepare the container for breakout elements */
   padding-inline: 10%;
   max-width: calc(10% + 65ch + 10%);
@@ -29,9 +30,10 @@
       min-width: auto;
     }
 
-    /* Tables are so special :( */
+    /* <!--section:responsive-table-without-wrapper-->
+    ### Responsive tables without wrapper
+    ```css */
     &:is(table):not(.does-not-exist) {
-      /* @TODO: add postcss's `:not(.does-not-exist)` to tricks-wiki */
       /* Let them full-bleed */
       width: max-content;
       min-width: auto;
@@ -48,6 +50,10 @@
         padding-inline-start: 0;
       }
     }
+    /*```
+    #### Soft-increase selector specificity
+    `&:is(table):not(.does-not-exist)` trick (inspired by postcss) is used here to increase specificity against selectors like `&:is(table, .table)`
+    <!--section--> */
 
     /* Max out the width of the element */
     &.breakout-item-max {
@@ -73,7 +79,7 @@
     &::before {
       width: 10em;
       right: 100%;
-      margin-right: 1rem;
+      margin-right: 0.8ch;
       height: 0.25em;
       top: 50%;
       transform: translateY(-50%);

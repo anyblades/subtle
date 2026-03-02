@@ -1,9 +1,10 @@
 h1 {
-  font-size: 3rem;
+  font-size: 2.5em; /* for pico.css & tw-typography */
+  margin-bottom: 1rem; /* for tw-typography */
 }
 
 hr {
-  margin-block: 2rem;
+  margin-block: 2em; /* for pico.css & tw-typography */
 }
 
 pre {

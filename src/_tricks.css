@@ -39,7 +39,7 @@ a[data-has-favicon] {
     margin-top: calc(-0.25em / 2);
     margin-inline-end: 0.25em;
 
-    /* Tailwind Typography (`.prose`) trick */
+    /* for tw-typography (.prose) */
     display: inline-block;
     margin-bottom: 0;
   }
