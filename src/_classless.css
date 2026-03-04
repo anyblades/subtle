@@ -39,3 +39,10 @@ pre {
     border-radius: 0;
   }
 }
+
+small {
+  [role="button"] {
+    padding: 0.75em 1em;
+    font-size: inherit;
+  }
+}
