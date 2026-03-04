@@ -89,3 +89,10 @@ a[data-has-favicon] {
 .columns {
   columns: 20ch auto; /* 3 cols max for 65ch container */
 }
+
+/* @TODO: to TRICKS */
+ul {
+  li[data-marker]::marker {
+    content: attr(data-marker) " ";
+  }
+}

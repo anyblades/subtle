@@ -18,13 +18,13 @@ hr {
 
 ul {
   ul {
-    font-size: 90%;
+    font-size: 87.5%;
   }
 }
 
 pre {
   small {
-    opacity: 50%;
+    opacity: 75%;
     font-weight: lighter;
   }
 }
