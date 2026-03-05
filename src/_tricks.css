@@ -113,7 +113,8 @@ code[data-caption] {
 }
 
 /* @TODO: to TRICKS */
-ul {
+ul,
+ol {
   li[data-marker]::marker {
     content: attr(data-marker) " ";
   }
