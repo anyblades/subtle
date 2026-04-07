@@ -2,14 +2,14 @@
 permalink: /
 ---
 
-# 🥷 *Blade*switch <sup>![](https://img.shields.io/github/v/release/anydigital/bladeswitch?label=&color=black)</sup>
+# 🥷 *Blade*switch <sup>![](https://img.shields.io/github/v/release/anyblades/bladeswitch?label=&color=black)</sup>
 
-<big>Ultra-lightweight [Blades](https://github.com/anydigital/blades) starter compatible with _BOTH_ Jekyll˂˂and˃˃11ty (Build Awesome) at the same time.</big>
+<big>Ultra-lightweight [Blades](https://github.com/anyblades/blades) starter compatible with _BOTH_ Jekyll˂˂and˃˃11ty (Build Awesome) at the same time.</big>
 
-[![](https://img.shields.io/github/deployments/anydigital/bladeswitch/github-pages?logo=jekyll&label=Demo&labelColor=darkslategray&style=for-the-badge)](https://anydigital.github.io/bladeswitch/)
+[![](https://img.shields.io/github/deployments/anyblades/bladeswitch/github-pages?logo=jekyll&label=Demo&labelColor=darkslategray&style=for-the-badge)](https://anyblades.github.io/bladeswitch/)
 [![](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?logo=eleventy&label=Demo&labelColor=darkslategray&style=for-the-badge)](https://bladeswitch.netlify.app/)
-[![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anydigital/bladeswitch)
-[![](https://img.shields.io/github/stars/anydigital/bladeswitch?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anydigital/bladeswitch)
+[![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anyblades/bladeswitch)
+[![](https://img.shields.io/github/stars/anyblades/bladeswitch?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anyblades/bladeswitch)
 
 ## Killer features
 
@@ -24,7 +24,7 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
 <table class="borderless">
   <tr>
     <th>
-      🥷 × <a href="https://anydigital.github.io/bladeswitch/" target="_blank"><big>Jekyll</big></a>
+      🥷 × <a href="https://anyblades.github.io/bladeswitch/" target="_blank"><big>Jekyll</big></a>
     </th>
     <th>
       🥷 × <a href="https://bladeswitch.netlify.app/" target="_blank"><big>11ty</big> (Build Awesome)</a>
@@ -33,24 +33,24 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
   <tr>
     <td>
       <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem<small>-jekyll</small></a></h3><sup
-      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/Gemfile" target="_blank">Gemfile</a></sup></pre>
+      >via <a href="https://github.com/anyblades/bladeswitch/blob/main/Gemfile" target="_blank">Gemfile</a></sup></pre>
     </td>
     <td>
-      <pre><h3>1. <a href="https://github.com/anydigital/eleventy-blades" target="_blank">eleventy-blades</a></h3><sup
-      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a></sup></pre>
+      <pre><h3>1. <a href="https://github.com/anyblades/eleventy-blades" target="_blank">eleventy-blades</a></h3><sup
+      >via <a href="https://github.com/anyblades/bladeswitch/blob/main/package.json" target="_blank">package.json</a></sup></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>2. <a href="https://github.com/anydigital/blades" target="_blank">blades<small>.css⁺</small></a></h3><sup
-      >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
-      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sup></pre>
+      <pre><h3>2. <a href="https://github.com/anyblades/blades" target="_blank">blades<small>.css⁺</small></a></h3><sup
+      >as remote_theme via <a href="https://github.com/anyblades/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
+      > or via <a href="https://github.com/anyblades/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sup></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
       <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico<small>.css</small></a> <small>optional</small></h3><sup
-      >from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sup></pre>
+      >from CDN via <a href="https://github.com/anyblades/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sup></pre>
     </td>
   </tr>
 </table>
@@ -63,7 +63,7 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
 
 ###### <mark>A.</mark> Natively, w/o GitHub Actions:
 
-<p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button" class="contrast">
+<p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anyblades" target="_blank" role="button" class="contrast">
   Using Jekyll on GitHub Pages
 </a></p>
 
@@ -75,7 +75,7 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
 
 ###### <mark>B.</mark> Fully preconfigured:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button" class="contrast">
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/anyblades/bladeswitch" target="_blank" role="button" class="contrast">
   Using 11ty (Build Awesome) on Netlify
 </a>
 
@@ -109,13 +109,13 @@ admin/                # Sveltia CMS configs
 
 ## More info
 
-<big>Repo: https://github.com/anydigital/bladeswitch</big>
+<big>Repo: https://github.com/anyblades/bladeswitch</big>
 
 Featured by:
 
 - https://11tybundle.dev/starters/
 - https://www.11ty.dev/docs/starter/
-- [https://jekyll-themes.com/](https://jekyll-themes.com/anydigital/bladeswitch)
+- [https://jekyll-themes.com/](https://jekyll-themes.com/anyblades/bladeswitch)
 - https://sveltiacms.app/en/docs/start for [11ty](https://sveltiacms.app/en/docs/frameworks/eleventy) & [Jekyll](https://sveltiacms.app/en/docs/frameworks/jekyll)
 - https://build.blades.ninja/ starter
 - https://any.digital/tricks/build-awesome-11ty/#min-starters
