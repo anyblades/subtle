@@ -109,7 +109,7 @@ admin/                # Sveltia CMS configs
 
 ## More info
 
-<big>Repo: https://github.com/anyblades/bladeswitch</big>
+<big>https://github.com/anyblades/bladeswitch</big>
 
 Featured by:
 
@@ -120,3 +120,5 @@ Featured by:
 - https://build.blades.ninja/ starter
 - https://any.digital/tricks/build-awesome-11ty/#min-starters
 - https://github.com/anydigital/awesome-11ty-build-awesome
+
+<!--{.unlist}-->
