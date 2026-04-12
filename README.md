@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-# 🥷 *Blade*switch <sup>![](https://img.shields.io/github/v/release/anyblades/bladeswitch?label=&color=black)</sup>
+## 🥷 *Blade*switch <sup>![](https://img.shields.io/github/v/release/anyblades/bladeswitch?label=&color=black)</sup>
 
 <big>Ultra-lightweight [Blades](https://github.com/anyblades/blades) starter compatible with _BOTH_ Jekyll˂˂and˃˃11ty (Build Awesome) at the same time.</big>
 
@@ -11,7 +11,7 @@ permalink: /
 [![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anyblades/bladeswitch)
 [![](https://img.shields.io/github/stars/anyblades/bladeswitch?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anyblades/bladeswitch)
 
-## Killer features
+### Killer features
 
 Easy to start, easy to switch:
 
@@ -19,7 +19,7 @@ It allows you to develop locally without [Ruby friction](https://any.digital/tri
 
 Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this — with only <big>3</big> direct dependencies:
 
-## Minimal dependencies <a id="minimal-dependencies"></a>
+### Minimal dependencies <a id="minimal-dependencies"></a>
 
 <table class="borderless">
   <tr>
@@ -57,7 +57,7 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
 
 ---
 
-## Quick start
+### Quick start
 
 <div class="grid"><div>
 
@@ -83,7 +83,7 @@ Also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this
 
 ---
 
-## All you need
+### All you need
 
 <div class="breakout-item" data-theme="dark">
 
@@ -107,7 +107,7 @@ admin/                # Sveltia CMS configs
 
 ---
 
-## More info
+### More info
 
 <big>https://github.com/anyblades/bladeswitch</big>
 
