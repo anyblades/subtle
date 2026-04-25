@@ -1,5 +1,7 @@
 {% extends 'blades/html.njk' %}
 
+{% set site = site | attr_concat('styles', 'https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/pico.blades.min.css') %}
+
 {% set content_for_header %}
   <link rel="canonical" href="https://blades.ninja/build-awesome-11ty/starters/" />
 {% endset %}
