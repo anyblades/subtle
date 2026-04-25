@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "npm run 11ty -- --serve",
-    "11ty": "eleventy --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js --input=../ --output=../_site",
+    "11ty": "eleventy --config=./node_modules/@anyblades/bladeswitch/eleventy.config.js",
     "dev": "npm i --install-links && rm -r node_modules/@anyblades/{bladeswitch,eleventy-blades} && ln -s ~/Developer/eleventy-blades/packages/* node_modules/@anyblades/"
   },
   "author": "Anton Staroverov",
