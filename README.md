@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # 🥷 *S*ubtle
 
 <big>Probably the most `.subtle` blog starter template, <br class="opt">
@@ -8,11 +12,12 @@ yet customizable thanks to [11ty plugin](https://github.com/anyblades/eleventy-b
 [![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anyblades/subtle)
 [![](https://img.shields.io/github/stars/anyblades/subtle?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anyblades/subtle)
 
-<div><hr></div>
+---
 
 Feel the difference:
 
-<figure class="breakout-item-max grid">
-  <img src="/media/eleventy-base-blog.png">
-  <img src="/media/subtle.png">
-</figure>
+|                                    |                        |
+| ---------------------------------- | ---------------------- |
+| ![](/media/eleventy-base-blog.png) | ![](/media/subtle.png) |
+
+<!--{.borderless}-->
