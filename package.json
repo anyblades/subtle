@@ -2,8 +2,9 @@
   "name": "@anyblades/subtle",
   "version": "0.0.1",
   "type": "module",
-  "author": "Anton Staroverov",
-  "license": "MIT",
+  "scripts": {
+    "dl": "curl -L https://github.com/11ty/eleventy-base-blog/tarball/main | tar -xz --strip-components=2 '*/content/blog'"
+  },
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
@@ -16,5 +17,8 @@
   },
   "peerDependencies": {
     "@11ty/eleventy": "^4.0.0-0"
-  }
+  },
+  "=== METADATA": "===",
+  "author": "Anton Staroverov",
+  "license": "MIT"
 }

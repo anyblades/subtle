@@ -8,13 +8,14 @@
     "build": "eleventy --input=../",
     "dev": "npm i --install-links && rm -r ./node_modules/@anyblades/eleventy-blades && cd ./node_modules/@anyblades/ && ln -s ../../../../eleventy-blades"
   },
-  "author": "Anton Staroverov",
-  "license": "MIT",
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0",
     "serve": "^14.2.5"
   },
   "dependencies": {
     "@anyblades/subtle": "^0.0.1"
-  }
+  },
+  "=== METADATA": "===",
+  "author": "Anton Staroverov",
+  "license": "MIT"
 }
