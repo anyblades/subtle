@@ -15,6 +15,6 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
-    "@anyblades/subtle": "^0.0.1-alpha"
+    "@anyblades/subtle": "^0.0.1"
   }
 }
