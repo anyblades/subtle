@@ -2,13 +2,6 @@
 
 <hr>
 
-<h2 id="blog">Blog</h2>
+<h2>Blog</h2>
 
-{% for page in collections.all %}
-  {% if page.url.startsWith('/blog/') %}
-    <a href="{{ page.url }}" role="button" class="outline">
-      <h3>{{ page.data.title }}</h3>
-      {{ page.data.description }}
-    </a>
-  {% endif %}
-{% endfor %}
+{% include 'postslist.njk' %}
