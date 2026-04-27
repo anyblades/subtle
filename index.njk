@@ -5,5 +5,10 @@
 <h2>Blog</h2>
 
 {% for page in collections.all %}
-  {{ page.title }}
+  {% if page.url.startsWith('/blog/') %}
+    <a href="{{ page.url }}" role="button" class="outline">
+      <h3>{{ page.data.title }}</h3>
+      {{ page.data.description }}
+    </a>
+  {% endif %}
 {% endfor %}

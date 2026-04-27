@@ -4,10 +4,25 @@
 
 {% set content_for_header %}
   <link rel="canonical" href="https://blades.ninja/build-awesome-11ty/starters/" />
+  <style>
+    body > :is(header, footer) {
+      padding-block: 2rem;
+      text-align: center;
+    }
+    a[role="button"] {
+      text-align: start;
+      border-width: 1px 0 0 1px;
+      margin: 0 0 0.5rem -1rem;
+    }
+  </style>
 {% endset %}
 
 {% block body %}
-  <main class="container breakout-all"><br><br>
+  <header><a href="/">Home</a></header>
+  <main class="container breakout-all">
+    <h1>{{ title }}</h1>
+    <big>{{ description }}</big>
     {{ content | safe }}
   </main>
+  <footer><hr>Footer</footer>
 {% endblock %}
