@@ -23,6 +23,10 @@
       border-width: 1px 0 0 1px;
       margin: 0 0 0.5rem -1rem;
     }
+    /*TODO: move to blades-css */
+    .breakout-all > img {
+      min-width: auto !important;
+    }
   </style>
 {% endset %}
 
@@ -33,7 +37,7 @@
   </header>
   <main class="container breakout-all">
     <h1>{{ title }}</h1>
-    <big>{{ description }}</big>
+    <p><big>{{ description }}</big></p>
     {{ content | safe }}
   </main>
   <footer><hr>Footer</footer>
