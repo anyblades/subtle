@@ -3,8 +3,9 @@
   "name": "subtle.blades.ninja",
   "type": "module",
   "scripts": {
-    "start": "npm run 11ty -- --serve",
-    "11ty": "eleventy --input=../ --output=../_site",
+    "start": "npm run build -- --serve",
+    "stage": "rm -r ./_site || true && npm run build && serve ./_site",
+    "build": "eleventy --input=../",
     "dev": "npm i --install-links && rm -r ./node_modules/@anyblades/eleventy-blades && cd ./node_modules/@anyblades/ && ln -s ../../../../eleventy-blades"
   },
   "author": "Anton Staroverov",
