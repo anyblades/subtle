@@ -1,0 +1,9 @@
+{% renderFile "../README.md" %}
+
+<hr>
+
+<h2>Blog</h2>
+
+{% for page in collections.all %}
+  {{ page.title }}
+{% endfor %}
