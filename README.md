@@ -14,6 +14,8 @@ yet customizable thanks to [11ty plugin](https://github.com/anyblades/eleventy-b
 
 ---
 
+By [literally] hiding inside the `.subtle` subfolder, it declutters the project root for your content.
+
 Feel the difference: <!-- screenshots are 25% of original github width -->
 
 | https://github.com/11ty/eleventy-base-blog | https://github.com/anyblades/subtle |
