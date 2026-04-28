@@ -14,10 +14,10 @@ yet customizable thanks to [11ty plugin](https://github.com/anyblades/eleventy-b
 
 ---
 
-Feel the difference:
+Feel the difference: <!-- screenshots are 25% of original github width -->
 
-|                                    |                        |
-| ---------------------------------- | ---------------------- |
-| ![](/media/eleventy-base-blog.png) | ![](/media/subtle.png) |
+| https://github.com/11ty/eleventy-base-blog | https://github.com/anyblades/subtle |
+| ------------------------------------------ | ----------------------------------- |
+| ![](/media/eleventy-base-blog.png)         | ![](/media/subtle.png)              |
 
 <!--{.borderless}-->
