@@ -1,0 +1,14 @@
+# Serve normally
+/                     / 200
+/html/                /html/ 200
+/css/*                /css/:splat 200
+
+# 11ty subsite
+/build-awesome-11ty/* https://11ty.blades.ninja/:splat 301
+/11ty/*               https://11ty.blades.ninja/:splat 301
+
+# Jekyll subsite
+/jekyll/              https://jekyll.blades.ninja/ 301
+
+# The Catch-all: Redirects everything else
+/*                    https://awesome.blades.ninja/:splat 301
