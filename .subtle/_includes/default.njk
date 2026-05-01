@@ -1,18 +1,7 @@
 {% extends 'blades/html.njk' %}
 
-{% set site = site | merge({
-  'styles': [
-    'https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/pico.blades.min.css',
-    'https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css'
-  ],
-  'scripts': [
-    'https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js',
-    'https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js'
-  ]
-}) %}
-
 {% set content_for_header %}
-  <link rel="canonical" href="https://blades.ninja/build-awesome-11ty/starters/" />
+  <link rel="canonical" href="https://11ty.blades.ninja/starters/" />
   <style>
     body > :is(header, footer) {
       padding-block: 2rem;

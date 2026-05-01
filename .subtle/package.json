@@ -15,6 +15,18 @@
   "dependencies": {
     "@anyblades/subtle": "^0.0.1"
   },
+  "=== SITE GLOBALS": "===",
+  "site": {
+    "title": "Subtle",
+    "styles": [
+      "https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/pico.blades.min.css",
+      "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css"
+    ],
+    "scripts": [
+      "https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js",
+      "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"
+    ]
+  },
   "=== METADATA": "===",
   "author": "Anton Staroverov",
   "license": "MIT"

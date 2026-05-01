@@ -1,5 +1,6 @@
 ---
 permalink: /
+summary: Probably the most .subtle starter for content-first sites/blogs, yet customizable thanks to 11ty plugin, Pico and other Blades.
 ---
 
 # 🥷 *S*ubtle

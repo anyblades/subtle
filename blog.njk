@@ -2,4 +2,11 @@
 title: Blog
 ---
 
-{% include 'postslist.njk' %}
+{% for page in collections.all %}
+  {% if page.url.startsWith('/blog/') and page.url != '/blog/' %}
+    <a href="{{ page.url }}" role="button" class="outline">
+      <h3>{{ page.data.title }}</h3>
+      {{ page.data.description }}
+    </a>
+  {% endif %}
+{% endfor %}
