@@ -13,7 +13,7 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
-    "@anyblades/subtle": "^0.0.1"
+    "@anyblades/subtle": "^0.0.2"
   },
   "=== SITE GLOBALS": "===",
   "site": {
