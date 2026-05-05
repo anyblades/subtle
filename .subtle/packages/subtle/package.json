@@ -8,7 +8,7 @@
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@anyblades/blades": "^0.28.0",
+    "@anyblades/blades": "^0.30.0",
     "@anyblades/eleventy-blades": "^0.28.0-beta.4",
     "@uncenter/eleventy-plugin-toc": "^2.1.1",
     "markdown-it": "^14.1.0",
@@ -20,5 +20,9 @@
   },
   "=== METADATA": "===",
   "author": "Anton Staroverov",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": []
 }

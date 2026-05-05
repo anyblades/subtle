@@ -6,7 +6,7 @@
     "start": "npm run build -- --serve",
     "stage": "rm -r ./_site/ || true && npm run build && serve ./_site/",
     "build": "eleventy --input=../",
-    "dev": "npm i --install-links && rm -r ./node_modules/@anyblades/eleventy-blades/ && cd ./node_modules/@anyblades/ && ln -s ../../../../eleventy-blades/"
+    "dev": "npm init -w ./packages/subtle -y"
   },
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0",
