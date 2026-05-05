@@ -29,5 +29,8 @@
   },
   "=== METADATA": "===",
   "author": "Anton Staroverov",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/subtle"
+  ]
 }

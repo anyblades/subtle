@@ -1,6 +1,6 @@
 {
   "name": "@anyblades/subtle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dl": "curl -L https://github.com/11ty/eleventy-base-blog/tarball/main | tar -xz --strip-components=2 '*/content/blog'"
