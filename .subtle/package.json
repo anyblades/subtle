@@ -19,7 +19,7 @@
   "site": {
     "title": "Subtle",
     "styles": [
-      "https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/pico.blades.min.css",
+      "https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/blades.min.css",
       "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css"
     ],
     "scripts": [
