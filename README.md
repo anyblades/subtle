@@ -1,4 +1,4 @@
-### 🥷 Build Awesome Starter <sup class="sup">![](https://img.shields.io/github/v/release/anyblades/build-awesome-starter?label=&color=black)</sup>
+# 🥷 Build Awesome Starter <sup class="sup">![](https://img.shields.io/github/v/release/anyblades/build-awesome-starter?label=&color=black)</sup>
 
 Modern, lightweight Eleventy v4 starter with Tailwind/Pico, [*Bl*ades](https://github.com/anyblades/blades), CMS and multisiting 🥷
 
@@ -21,6 +21,8 @@ Modern, lightweight Eleventy v4 starter with Tailwind/Pico, [*Bl*ades](https://g
    <sup>thanks to symlink-based setup</sup>
 6. **One-click start**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anyblades/build-awesome-starter)
+
+<!--{.columns}-->
 
 ---
 

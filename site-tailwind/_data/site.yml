@@ -1,8 +1,0 @@
-title: Build Awesome Starter
-description: Modern, lightweight Eleventy v4 starter with Tailwind or Pico; Blades, CMS and multisiting 🥷
-footer: |-
-  Made with sharp [Blades](https://blades.ninja/)
-  © [*Any*digital](https://any.digital/) 2025–{{ year }}
-
-  [![](https://img.shields.io/github/stars/anyblades/build-awesome-starter?label=🥷&logo=%20)](https://github.com/anyblades/build-awesome-starter)
-  <br><br>

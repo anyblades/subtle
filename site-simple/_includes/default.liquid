@@ -1,0 +1,13 @@
+{% assign site = pkg.site | merge: site %}
+
+{% capture body %}
+  <main class="container breakout-all">
+    {{ content }}
+  </main>
+  <footer style="text-align: center">
+    <hr>
+    {{ site.footer | renderContent: 'liquid,md', site }}
+  </footer>
+{% endcapture %}
+
+{% include blades/html.liquid %}

@@ -13,8 +13,6 @@
     "build": "npm run do -- build",
     "dev:dl": "curl https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/admin/index.html -o ./_public/admin/index.html"
   },
-  "author": "Anton Staroverov",
-  "license": "MIT",
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0",
     "serve": "^14.2.5"
@@ -34,6 +32,8 @@
   },
   "=== SITE GLOBALS": "===",
   "site": {
+    "title": "Build Awesome Starter",
+    "description": "Modern, lightweight Eleventy v4 starter with Tailwind or Pico; Blades, CMS and multisiting 🥷",
     "styles": [
       "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css",
       "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css",
@@ -44,6 +44,14 @@
       "https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js",
       "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js",
       "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js"
+    ],
+    "footer_contents": [
+      "Made with sharp [Blades](https://blades.ninja/)",
+      "© [*Any*digital](https://any.digital/) 2025–{{ year }}",
+      "<br> [![](https://img.shields.io/github/stars/anyblades/build-awesome-starter?label=🥷&logo=%20)](https://github.com/anyblades/build-awesome-starter)"
     ]
-  }
+  },
+  "=== METADATA": "===",
+  "author": "Anton Staroverov",
+  "license": "MIT"
 }
