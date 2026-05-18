@@ -23,7 +23,7 @@
     "@11ty/eleventy": "^4.0.0-alpha.7",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@anyblades/blades": "^0.28.0-alpha.5",
-    "@anyblades/eleventy-blades": "^0.28.0-beta.4",
+    "@anyblades/eleventy-blades": "^0.29.0-alpha",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "js-yaml": "^4.1.1",
