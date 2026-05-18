@@ -1,4 +1,4 @@
-{% set site = pkg.site | merge(site) %}
+{% set site = pkg.site | merge(site) | attr_set('styles', []) | attr_concat('styles', pkg.site.styles) | attr_concat('styles', site.styles) %}
 {% extends 'blades/html.njk' %}
 
 {% block body %}
