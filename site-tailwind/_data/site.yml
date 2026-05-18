@@ -1,15 +1,5 @@
 title: Build Awesome Starter
 description: Modern, lightweight Eleventy v4 starter with Tailwind or Pico; Blades, CMS and multisiting 🥷
-favicon: /favicon.svg
-styles:
-  - https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css
-  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css
-  - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css
-  - /styles.css
-scripts:
-  - https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js
-  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js
-  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js
 footer: |-
   Made with sharp [Blades](https://blades.ninja/)
   © [*Any*digital](https://any.digital/) 2025–{{ year }}

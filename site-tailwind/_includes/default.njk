@@ -1,9 +1,5 @@
+{% set site = pkg.site | merge(site) %}
 {% extends 'blades/html.njk' %}
-
-
-{% set content_for_header %}
-  <link rel="canonical" href="https://blades.ninja/build-awesome-11ty/starters/" />
-{% endset %}
 
 {% block body %}
   <main>
