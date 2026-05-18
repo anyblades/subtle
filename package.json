@@ -7,10 +7,13 @@
     "do"
   ],
   "scripts": {
-    "do": "ELTY_OPTIONS='--input=./site-tailwind --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js' TW_OPTIONS='--input=./site-tailwind/styles.css --output=./_public/styles.css' npm -w do run",
+    "do": "ELTY_OPTIONS=\"--input=./site-${SITE:-tailwind} --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js\" TW_OPTIONS=\"--input=./site-tailwind/styles.css --output=./_public/styles.css\" npm -w do run",
     "start": "npm run do -- start",
     "stage": "npm run do -- stage",
     "build": "npm run do -- build",
+    "simple:start": "SITE=simple npm run do -- start",
+    "simple:stage": "SITE=simple npm run do -- stage",
+    "simple:build": "SITE=simple npm run do -- build",
     "dev:dl": "curl https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/admin/index.html -o ./_public/admin/index.html"
   },
   "devDependencies": {

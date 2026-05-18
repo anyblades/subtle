@@ -5,8 +5,7 @@
     {{ content }}
   </main>
   <footer style="text-align: center">
-    <hr>
-    {{ site.footer | renderContent: 'liquid,md', site }}
+    {{ site.footer_contents | join: ' ' | renderContent: 'liquid,md', site }}
   </footer>
 {% endcapture %}
 
