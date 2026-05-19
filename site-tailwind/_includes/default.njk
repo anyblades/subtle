@@ -5,7 +5,7 @@
   <main>
     <article class="prose lg:prose-xl xl:prose-2xl breakout-all">{{ content | safe }}</article>
   </main>
-  <footer class="prose">
+  <footer class="prose text-center">
     <hr />
     {{ site.footer_contents | join(' ') | renderContent('njk,md', site) | safe }}
   </footer>

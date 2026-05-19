@@ -7,7 +7,7 @@
     "do"
   ],
   "scripts": {
-    "do": "ELTY_OPTIONS=\"--input=./site-${SITE:-tailwind} --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js\" TW_OPTIONS=\"--input=./site-tailwind/styles.css --output=./_public/styles.css\" npm -w do run",
+    "do": "ELTY_OPTIONS=\"--input=./site-${SITE:-tailwind} --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js\" TW_OPTIONS=\"--input=./site-${SITE:-tailwind}/styles.css --output=./_public/styles.css\" npm -w do run",
     "start": "npm run do -- start",
     "stage": "npm run do -- stage",
     "build": "npm run do -- build",

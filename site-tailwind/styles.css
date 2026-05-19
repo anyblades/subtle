@@ -3,23 +3,12 @@
 @import "@anyblades/blades";
 
 /* Custom styles go below */
-@layer base {
-  body {
-    @apply py-[3em];
-  }
-  footer {
-    @apply text-center;
-  }
-  mark {
-    @apply bg-teal-200;
-  }
+body {
+  @apply py-[3em];
 }
-@layer utilities {
-  .prose {
-    @apply container p-4 mx-auto;
-
-    img {
-      @apply inline-block m-0;
-    }
+.prose {
+  @apply container p-4 mx-auto;
+  img {
+    @apply inline-block m-0;
   }
 }
