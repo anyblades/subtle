@@ -6,9 +6,11 @@
 body {
   @apply py-[3em];
 }
-.prose {
-  @apply container p-4 mx-auto;
-  img {
-    @apply inline-block m-0;
+@layer utilities {
+  .prose {
+    @apply container p-4 mx-auto;
+    img {
+      @apply inline-block m-0;
+    }
   }
 }
