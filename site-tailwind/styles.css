@@ -4,11 +4,11 @@
 
 /* Custom styles go below */
 body {
-  @apply py-[3em];
+  @apply py-[3em] dark:bg-gray-900;
 }
 @layer utilities {
   .prose {
-    @apply container p-4 mx-auto;
+    @apply container p-4 mx-auto dark:prose-invert;
     img {
       @apply inline-block m-0;
     }
