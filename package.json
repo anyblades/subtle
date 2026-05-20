@@ -17,6 +17,7 @@
     "start:simple": "SITE=simple npm run do -- start",
     "stage:simple": "SITE=simple npm run do -- stage",
     "build:simple": "SITE=simple npm run do -- build",
+    "dev": "npm pkg set overrides.'@anyblades/eleventy-blades'='file:../eleventy-blades'",
     "dev:dl": "curl https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/admin/index.html -o ./_public/admin/index.html"
   },
   "dependencies": {
@@ -53,8 +54,5 @@
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0",
     "serve": "^14.2.5"
-  },
-  "# overrides": {
-    "@anyblades/eleventy-blades": "file:../eleventy-blades"
   }
 }
