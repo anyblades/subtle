@@ -19,19 +19,12 @@
     "build:simple": "SITE=simple npm run do -- build",
     "dev:dl": "curl https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/admin/index.html -o ./_public/admin/index.html"
   },
-  "devDependencies": {
-    "prettier-plugin-jinja-template": "^2.1.0",
-    "serve": "^14.2.5"
-  },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.7",
-    "@anyblades/eleventy-blades-base": "file:../eleventy-blades/packages/eleventy-blades-base",
+    "@anyblades/eleventy-blades-base": "^0.1.1",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "tailwindcss": "^4.1.18"
-  },
-  "overrides": {
-    "@anyblades/eleventy-blades": "file:../eleventy-blades"
   },
   "=== SITE GLOBALS": "===",
   "site": {
@@ -55,5 +48,13 @@
   },
   "=== METADATA": "===",
   "author": "Anton Staroverov",
-  "license": "MIT"
+  "license": "MIT",
+  "=== DEV ONLY": "===",
+  "devDependencies": {
+    "prettier-plugin-jinja-template": "^2.1.0",
+    "serve": "^14.2.5"
+  },
+  "# overrides": {
+    "@anyblades/eleventy-blades": "file:../eleventy-blades"
+  }
 }
