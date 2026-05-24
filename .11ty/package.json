@@ -12,7 +12,7 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
-    "@anyblades/eleventy-blades-base": "^0.2.0"
+    "@anyblades/eleventy-blades-base": "^0.3.1"
   },
   "=== SITE GLOBALS": "===",
   "site": {
