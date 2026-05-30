@@ -2,6 +2,7 @@
 {% extends 'blades/html.njk' %}
 
 {% set content_for_header %}
+  <meta name="generator" content="{{ site.generator }} — {{ site.subtitle }}">
   <style>
     body > :is(header, footer) {
       padding-block: 2rem;

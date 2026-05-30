@@ -25,7 +25,8 @@
     "base": "https://subtle.blades.ninja/",
     "language": "en",
     "title": "Subtle",
-    "subtitle": "Ultra-lightweight Eleventy-based generator for content-first sites 🥷📝",
+    "subtitle": "The most subtle Eleventy v4 micro-starter for content-first sites 🥷📝",
+    "generator": "Eleventy v4 using Subtle",
     "author": {
       "name": "Anton Staroverov"
     },
