@@ -4,7 +4,8 @@ permalink: /
 
 # 🥷 *S*ubtle
 
-<big>The most subtle Eleventy v4 micro-starter for content-first sites. Powered by [Eleventy Blades](https://11ty.blades.ninja/).</big>
+<big>The most subtle Eleventy v4 micro-starter for content-first sites.</big>  
+Powered by [Eleventy Blades](//11ty.blades.ninja/)
 
 ![](https://img.shields.io/github/v/release/anyblades/subtle?label=&color=darkslategray&style=for-the-badge)
 [![](https://img.shields.io/netlify/346efcff-c92c-4f1c-bf3c-047049fc6a8c?label=Demo&labelColor=darkslategray&style=for-the-badge)](https://subtle.blades.ninja/)
