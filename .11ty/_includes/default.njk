@@ -17,7 +17,7 @@
     }
     /* Custom styles go below */
     body > nav { padding-block-start: 1rem; justify-content: center }
-    body > footer { padding-block-end: 2rem; text-align: center; font-size: smaller }
+    body > footer { padding-block-end: 2rem; text-align: center; font-size: medium }
     .borderless {
       th { padding-block-end: 0 }
       pre { padding-block: 0; padding-inline-start: 0; margin: 0 }
@@ -32,5 +32,5 @@
     {% if description %}<p><big>{{ description }}</big></p>{% endif %}
     {{ content | safe }}
   </main>
-  <footer><hr>Powered by &nbsp;<a href="https://github.com/anyblades"><img src="https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades"></a></footer>
+  <footer><hr>{{ site.footer | safe }}</footer>
 {% endblock %}
