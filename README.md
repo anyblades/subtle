@@ -4,13 +4,13 @@ permalink: /
 
 # 🥷 *S*ubtle
 
-<big>The most subtle Eleventy v4 micro-starter for content-first sites.</big>  
-Powered by [Eleventy Blades](//11ty.blades.ninja/)
-
 ![](https://img.shields.io/github/v/release/anyblades/subtle?label=&color=darkslategray&style=for-the-badge)
-[![](https://img.shields.io/netlify/346efcff-c92c-4f1c-bf3c-047049fc6a8c?label=Demo&labelColor=darkslategray&style=for-the-badge)](https://subtle.blades.ninja/)
+[![](https://img.shields.io/badge/Demo-blue?logo=netlify&logoColor=white&style=for-the-badge)](https://subtle.blades.ninja/)
 [![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anyblades/subtle)
 [![](https://img.shields.io/github/stars/anyblades/subtle?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anyblades/subtle)
+
+<big>The most subtle Eleventy v4 micro-starter for content-first sites.</big>  
+Powered by [Eleventy Blades](//11ty.blades.ninja/)
 
 ---
 
@@ -68,4 +68,3 @@ Featured by:
 - https://11tybundle.dev/starters/
 
 <!--{.columns}-->
-
