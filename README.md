@@ -80,4 +80,5 @@ Featured by:
 
 https://11tybundle.dev/starters/,
 https://11ty.blades.ninja/starters/,
+https://www.11ty.dev/docs/starter/,
 [awesome-11ty](https://github.com/anyblades/awesome-11ty-buildawesome)
