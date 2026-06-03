@@ -5,12 +5,13 @@ eleventyNavigation: { key: Home, order: 1 }
 
 # 🥷 *S*ubtle
 
+<div class="overflow-auto">
+
 ![](https://img.shields.io/github/v/release/anyblades/subtle?label=&color=darkslategray&style=for-the-badge)
 [![](https://img.shields.io/badge/Demo-blue?logo=netlify&logoColor=white&style=for-the-badge)](https://subtle.blades.ninja/)
 [![](https://img.shields.io/badge/Code-gainsboro?logo=github&logoColor=black&style=for-the-badge)](https://github.com/anyblades/subtle)
 [![](https://img.shields.io/github/stars/anyblades/subtle?label=Star&labelColor=gainsboro&color=silver&style=for-the-badge)](https://github.com/anyblades/subtle)
-
-<!--{.overflow-auto}-->
+</div>
 
 <big>The most subtle Eleventy v4 [micro-starter](//11ty.blades.ninja/starters/) for content-first sites.</big>  
 Powered by [Eleventy *Bl*ades](//11ty.blades.ninja/)
