@@ -32,5 +32,5 @@
     {% if description %}<p><big>{{ description }}</big></p>{% endif %}
     {{ content | safe }}
   </main>
-  <footer><hr>{{ site.footer | safe }}</footer>
+  <footer><hr>{{ site.footer | safe }} © {{ site.year }}</footer>
 {% endblock %}
