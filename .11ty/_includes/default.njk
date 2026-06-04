@@ -11,6 +11,10 @@
       border-width: 1px 0 0 1px;
       margin: 0 0 0.5rem -1rem;
     }
+    img[src*="?domain=github.com&"] {
+      border-radius: 50%;
+      @media (prefers-color-scheme: dark) { filter: invert(1) }
+    }
     /*TODO: move to blades.css */
     .breakout-all > img {
       min-width: auto !important;

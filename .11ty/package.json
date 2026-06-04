@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "subtle.blades.ninja",
-  "version": "0.3.0",
+  "version": "1.0.0-beta",
   "license": "MIT",
   "type": "module",
   "workspaces": [
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.7",
-    "@anyblades/eleventy-blades-base": "^0.4.8"
+    "@anyblades/eleventy-blades-base": "^1.0.0-beta"
   },
   "=== SITE GLOBALS": "compatible with https://www.11ty.dev/docs/plugins/rss/#virtual-template",
   "site": {
